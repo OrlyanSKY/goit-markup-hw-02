@@ -1,0 +1,56 @@
+/*синий  #2196F3; */
+/* цвет заголовков #212121;  */
+/* вторичный цвет текста #757575; */
+/* белый для Н1 #FFFFFF; */
+/* черный для лого #000000; */
+/* для футера color: rgba(255, 255, 255, 0.6); */
+:root {
+    --main-text-color: #757575;
+    --accent-text-color: #2196F3;
+    --title-text-color: #212121;
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+    --footer-text-color: rgba(255, 255, 255, 0.6);
+}
+body {
+    background-color: #ffffff;
+    color: #757575;
+    font-family: 'Roboto',
+    sans-serif;
+}
+/* обнуляет оформление для ul */
+.link {
+    list-style: none;
+}
+                /* Header */
+/* Лого  */
+.logo {
+    color: var(--black-color);
+    font-family: 'Raleway',
+    sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+.blue-logo {
+    color: var(--accent-text-color);
+}
+/* Навигация */
+.site-nav a {
+    color: var(--title-text-color);
+}
+.site-nav a:hover,
+.site-nav a:focus {
+    color: var(--accent-text-color);
+}
+
+/* Контакты */
+.contacts a {
+    color: var(--main-text-color);
+}
+.contacts a:hover,
+.contacts a:focus {
+    color: var(--accent-text-color);
+}
