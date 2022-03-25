@@ -7,6 +7,7 @@
 :root {
     --main-text-color: #757575;
     --accent-text-color: #2196F3;
+    --background-color-hero: #2F303A;
     --title-text-color: #212121;
     --white-color: #FFFFFF;
     --black-color: #000000;
@@ -17,6 +18,8 @@ body {
     color: #757575;
     font-family: 'Roboto',
     sans-serif;
+    font-size: 14px;
+    margin: 0;
 }
 /* обнуляет оформление для ul */
 .link {
@@ -24,22 +27,26 @@ body {
 }
                 /* Header */
 /* Лого  */
+.blue-logo {
+    color: var(--accent-text-color);
+}
 .logo {
     color: var(--black-color);
-    font-family: 'Raleway',
-    sans-serif;
+    font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
 }
-.blue-logo {
-    color: var(--accent-text-color);
-}
+
 /* Навигация */
 .site-nav a {
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 .site-nav a:hover,
 .site-nav a:focus {
@@ -49,8 +56,58 @@ body {
 /* Контакты */
 .contacts a {
     color: var(--main-text-color);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 .contacts a:hover,
 .contacts a:focus {
     color: var(--accent-text-color);
+}
+
+/* секция Hero */
+
+.hero {
+    background-color: var(--background-color-hero);
+}
+.hero-title {
+    color: var(--white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+}
+.hero-button {
+    color: var(--white-color);
+    background-color: var(--accent-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+
+}
+
+/* наши преимущества */
+
+/* типа "скрыл" логический заголовок */
+.advantages-title {
+    position: absolute;
+    visibility: hidden;
+}
+.advantages-list h3 {
+    color: var(--title-text-color)
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
