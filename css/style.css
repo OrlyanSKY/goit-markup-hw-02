@@ -12,6 +12,7 @@ body {
     background-color: #ffffff;
     color: var(--main-text-color);
     font-family: 'Roboto',
+    'Arial',
     sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -97,6 +98,7 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    cursor: pointer;
 }
 
 /* наши преимущества */
@@ -162,11 +164,19 @@ line-height: 24px;
     color: var(--white-color);
     font-style: normal;
 }
+.white-link:hover,
+.white-link:focus {
+    color: var(--accent-text-color);
+}
 .clear-link {
     text-decoration: none;
     color: var(--footer-text-color);
     font-style: normal;
     line-height: 24px;
+}
+.clear-link:hover,
+.clear-link:focus {
+    color: var(--accent-text-color);
 }
 
      /* part2 PORTFOLIO */
@@ -180,6 +190,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 26px;
 letter-spacing: 0.03em;
+cursor: pointer;
 }
 .filter-button:hover,
 .filter-button:focus {
