@@ -6,6 +6,7 @@
     --white-color: #FFFFFF;
     --black-color: #000000;
     --footer-text-color: rgba(255, 255, 255, 0.6);
+    --filter-background: #F5F4FA;
 }
 body {
     background-color: #ffffff;
@@ -166,4 +167,36 @@ line-height: 24px;
     color: var(--footer-text-color);
     font-style: normal;
     line-height: 24px;
+}
+
+     /* part2 PORTFOLIO */
+
+     /* Кнопки */
+
+.filter-button {
+color: var(--title-text-color);
+background-color: var(--filter-background);
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.03em;
+}
+.filter-button:hover,
+.filter-button:focus {
+    color: var(--white-color);
+    background-color: var(--accent-text-color);
+}
+
+    /* Проекты */
+
+.project-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+.project-text {
+    font-size: 16px;
+    line-height: 30px;
 }
