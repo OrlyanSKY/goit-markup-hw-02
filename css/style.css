@@ -176,6 +176,7 @@ line-height: 1.71;
 
      /* Кнопки */
 
+
 .filter-button {
 color: var(--title-text-color);
 background-color: var(--filter-background);
@@ -184,6 +185,9 @@ font-size: 16px;
 line-height: 1.62;
 letter-spacing: 0.03em;
 cursor: pointer;
+font-family: 'Roboto',
+'Arial',
+sans-serif;
 }
 .filter-button:hover,
 .filter-button:focus {
